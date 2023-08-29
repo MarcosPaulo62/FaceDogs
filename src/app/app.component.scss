@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+
+    img{
+        height: 50px;
+    }
+
+    div, nav, a{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    nav{
+        gap: 1.5rem;
+
+        a:hover{
+            border-bottom: 2px solid white;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+
+    span{
+        font-weight: 700;
+    }
+}

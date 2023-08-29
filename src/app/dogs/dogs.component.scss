@@ -1,0 +1,36 @@
+main{
+    padding: 2rem 6rem 4rem;
+
+    h1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .example-card {
+        max-width: 400px;
+        box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.384);
+    }
+
+    .card-header{
+        padding-bottom: .5rem;
+    }
+
+    .img-dog{
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .liked-button{
+        background-color: #3f51b5;
+        color: white;
+    }
+}

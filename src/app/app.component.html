@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row class="header">
+    <div>
+        <a routerLink="/">
+            <img src="../assets/logo.png" alt="" />
+            <span>FaceDogs</span>
+        </a>
+    </div>
+    <div>
+        <nav>
+          <a routerLink="/">Home</a>
+          <a routerLink="/dogs">Dogs</a>
+          <a routerLink="/contato">Contato</a>
+        </nav>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row class="footer">
+    <p>© 2023 por <span>FaceDogs</span>. Todos os direitos reservados.</p>
+  </mat-toolbar-row>
+</mat-toolbar>

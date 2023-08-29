@@ -1,0 +1,17 @@
+<main>
+    <h1>Dogs</h1>
+    <section class="cards">
+        <mat-card *ngFor="let dog of dogs" class="example-card">
+            <mat-card-header class="card-header">
+                <mat-card-title>{{ dog.name }}</mat-card-title>
+            </mat-card-header>
+            <img class="img-dog" mat-card-image [src]="dog.imgProfile" alt="imagem de um dog">
+            <mat-card-actions class="buttons">
+                <button mat-button [ngClass]="{'liked-button': dog.liked}" (click)="toggleLike(dog)">
+                    LIKE
+                </button>
+            </mat-card-actions>
+        </mat-card>        
+    </section>
+</main>
+
